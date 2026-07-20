@@ -1,11 +1,94 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Skillmatch</title>
-</head>
-<body>
-    
-</body>
-</html>]
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SkillMatch</title>
+    <link rel="stylesheet" href="./assets/styles/cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  </head>
+
+  <body>
+    <main>
+      <section class="hero">
+        <header>
+          <img src="./assets/img/logo.svg" alt="Logo SkillMatch" class="logo" />
+          <h1>Encontre a vaga perfeita para você</h1>
+          <p>Descubra oportunidades compatíveis com suas habilidades, experiência e objetivos profissionais.</p>
+        </header>
+        <article>
+          <h2>Como funciona?</h2>
+          <ol>
+            <li>Preencha seu perfil.</li>
+            <li>Selecionamos as melhores vagas.</li>
+            <li>Veja sua compatibilidade.</li>
+          </ol>
+        </article>
+      </section>
+
+      <section class="cadastro">
+        <header>
+          <h2>Complete seu perfil</h2>
+          <p>Leva menos de um minuto.</p>
+        </header>
+
+        <form id="formPerfil">
+          <fieldset>
+            <legend>Informações pessoais</legend>
+
+            <label for="nome"> Nome completo </label>
+
+            <input type="text"  id="nome" name="nome" placeholder="Digite seu nome" required/>
+
+            <label for="area"> Área de atuação </label>
+
+            <select id="area" name="area" required>
+              <option value="">Selecione</option>
+              <option value="Front-end">Front-end</option>
+              <option value="Back-end">Back-end</option>
+              <option value="Full Stack">Full Stack</option>
+              <option value="Mobile">Mobile</option>
+              <option value="UI/UX">UI/UX</option>
+              <option value="Dados">Dados</option>
+            </select>
+
+            <label for="experiencia"> Tempo de experiência </label>
+
+            <input type="number" id="experiencia" name="experiencia" min="0" max="40" placeholder="Ex.: 2"/>
+          </fieldset>
+
+          <fieldset>
+            <legend>Habilidades</legend>
+            <p>Clique nas tecnologias que você domina.</p>
+            <ul class="skills-list">
+              <li><button type="button" class="skill-tag">HTML</button></li>
+              <li><button type="button" class="skill-tag">CSS</button></li>
+              <li><button type="button" class="skill-tag">JavaScript</button></li>
+              <li><button type="button" class="skill-tag">TypeScript</button></li>
+              <li><button type="button" class="skill-tag">React</button></li>
+              <li><button type="button" class="skill-tag">Vue.js</button></li>
+              <li><button type="button" class="skill-tag">Angular</button></li>
+              <li><button type="button" class="skill-tag">Node.js</button></li>
+              <li><button type="button" class="skill-tag">Java</button></li>
+              <li><button type="button" class="skill-tag">Python</button></li>
+              <li><button type="button" class="skill-tag">PHP</button></li>
+              <li><button type="button" class="skill-tag">C#</button></li>
+              <li><button type="button" class="skill-tag">SQL</button></li>
+              <li><button type="button" class="skill-tag">PostgreSQL</button></li>
+              <li><button type="button" class="skill-tag">MongoDB</button></li>
+              <li><button type="button" class="skill-tag">Git</button></li>
+              <li><button type="button" class="skill-tag">GitHub</button></li>
+              <li><button type="button" class="skill-tag">Docker</button></li>
+              <li><button type="button" class="skill-tag">Figma</button></li>
+              <li><button type="button" class="skill-tag">AWS</button></li>
+            </ul>
+          </fieldset>
+          <button type="submit" class="form-button">Encontrar vagas</button>
+        </form>
+      </section>
+    </main>
+    <script type="module" src="./assets/scripts/main.js"></script>
+    </body>
+  </html>

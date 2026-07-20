@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <meta
+        name="description"
+        content="Encontre vagas compatíveis com suas habilidades através do SkillMatch.">
+    <title>SkillMatch | Vagas</title>
+    <link
+        rel="stylesheet"
+        href="./assets/styles/vagas.style.css">
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+</head>
+<body>
+    <header>
+            <img src="./assets/img/logo.svg" alt="Logo SkillMatch">
+        <form>
+            <label
+                for="campoPesquisa"
+                class="sr-only">
+                Pesquisar vaga
+            </label>
+            <img
+                src="./assets/img/search.svg"
+                alt="">
+            <input
+                type="search"
+                id="campoPesquisa"
+                name="campoPesquisa"
+                placeholder="Pesquisar vagas...">
+        </form>
+        <button
+            id="btnPerfil"
+            type="button"
+            aria-label="Abrir perfil">
+            <img
+                src="./assets/img/user.svg"
+                alt="">
+        </button>
+    </header>
+    <main>
+        <section>
+            <h1>
+                Bem-vindo!
+            </h1>
+            <p id="mensagemPerfil">
+                Encontramos as vagas mais compatíveis com o seu perfil.
+            </p>
+        </section>
+        <section
+            id="melhorVaga">
+            <header>
+                <img
+                    src="./assets/img/star.svg"
+                    alt="">
+                <h2>
+                    Melhor vaga para você
+                </h2>
+            </header>
+        </section>
+                <nav aria-label="Filtros de vagas">
+    <ul class="lista-filtros">
+        <li>
+            <button
+                type="button"
+                class="filtro ativo"
+                data-area="todas">
+                Todas
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="front-end">
+                Front-end
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="back-end">
+                Back-end
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="full stack">
+                Full Stack
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="mobile">
+                Mobile
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="ui/ux">
+                UI/UX
+            </button>
+        </li>
+        <li>
+            <button
+                type="button"
+                class="filtro"
+                data-area="dados">
+                Dados
+            </button>
+        </li>
+    </ul>
+</nav>
+        <section
+            id="listaVagas"
+            aria-label="Lista de vagas">
+        </section>
+    </main>
+    <aside id="perfil">
+        <header>
+            <h2>
+                Meu Perfil
+            </h2>
+            <button
+                id="btnFecharPerfil"
+                type="button"
+                aria-label="Fechar perfil">
+                <img
+                    src="./assets/img/x.svg"
+                    alt="">
+            </button>
+        </header>
+        <section>
+            <article>
+                <img
+                    src="./assets/img/user-round.svg"
+                    alt="">
+                <h3>
+                    Nome
+                </h3>
+                <p id="perfilNome"></p>
+            </article>
+            <article>
+                <img
+                    src="./assets/img/layers.svg"
+                    alt="">
+                <h3>
+                    Área
+                </h3>
+                <p id="perfilArea"></p>
+            </article>
+            <article>
+                <img
+                    src="./assets/img/graduation-cap.svg"
+                    alt="">
+                <h3>
+                    Experiência
+                </h3>
+                <p id="perfilExperiencia"></p>
+            </article>
+            <article>
+                <img
+                    src="./assets/img/brain.svg"
+                    alt="">
+                <h3>
+                    Habilidades
+                </h3>
+                <ul id="perfilHabilidades">
+                </ul>
+            </article>
+        </section>
+        <form id="formEditarPerfil" hidden>
+    <fieldset>
+        <legend>Editar informações</legend>
+        <label for="editarNome">
+            Nome
+        </label>
+        <input
+            type="text"
+            id="editarNome"
+            name="nome"
+            required>
+        <label for="editarArea">
+            Área
+        </label>
+        <select
+            id="editarArea"
+            name="area"
+            required>
+            <option value="Front-end">
+                Front-end
+            </option>
+            <option value="Back-end">
+                Back-end
+            </option>
+            <option value="Full Stack">
+                Full Stack
+            </option>
+            <option value="Mobile">
+                Mobile
+            </option>
+            <option value="UI/UX">
+                UI/UX
+            </option>
+            <option value="Dados">
+                Dados
+            </option>
+        </select>
+        <label for="editarExperiencia">
+            Experiência
+        </label>
+        <input
+            type="number"
+            id="editarExperiencia"
+            name="experiencia"
+            min="0"
+            max="40">
+    </fieldset>
+    <fieldset>
+        <legend>Habilidades</legend>
+        <ul
+            id="editarHabilidades"
+            class="skills-edicao">
+            <li>
+                <button type="button" class="skill-edicao">
+                    HTML
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    CSS
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    JavaScript
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    TypeScript
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    React
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Vue.js
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Angular
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Node.js
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Java
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Python
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    PHP
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    C#
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    SQL
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    PostgreSQL
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    MongoDB
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Git
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    GitHub
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Docker
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    Figma
+                </button>
+            </li>
+            <li>
+                <button type="button" class="skill-edicao">
+                    AWS
+                </button>
+            </li>
+        </ul>
+    </fieldset>
+    <section class="acoes-edicao">
+        <button
+            type="submit"
+            id="btnSalvarPerfil">
+            Salvar alterações
+        </button>
+        <button
+            type="button"
+            id="btnCancelarEdicao">
+            Cancelar
+        </button>
+    </section>
+</form>
+<button
+    id="btnEditarPerfil"
+    type="button">
+    Editar Perfil
+</button>
+    </aside>
+    <footer>
+        <small>
+            © 2026 SkillMatch
+        </small>
+    </footer>
+    <script
+        type="module"
+        src="./assets/scripts/main.js">
+    </script>
+</body>
+</html>
