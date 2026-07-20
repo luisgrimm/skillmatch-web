@@ -1,0 +1,528 @@
+[
+  {
+    "id": 1,
+    "titulo": "Desenvolvedor Front-end Júnior",
+    "area": "Front-end",
+    "empresa": "Tech Solutions",
+    "localizacao": "Joinville, SC",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 3.800 - R$ 4.500",
+    "descricao": "Desenvolvimento de interfaces utilizando HTML, CSS, JavaScript e React.",
+    "requisitos": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Git"
+    ],
+    "publicadoEm": "2026-07-18"
+  },
+  {
+    "id": 2,
+    "titulo": "UX/UI Designer",
+    "area": "UI/UX",
+    "empresa": "Creative Studio",
+    "localizacao": "Florianópolis, SC",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 5.500",
+    "descricao": "Criação de interfaces intuitivas e prototipação de aplicações web.",
+    "requisitos": [
+      "Figma",
+      "Adobe XD",
+      "Prototipação",
+      "Design System"
+    ],
+    "publicadoEm": "2026-07-17"
+  },
+  {
+    "id": 3,
+    "titulo": "Analista de Marketing Digital",
+    "area": "Marketing",
+    "empresa": "MarketUp",
+    "localizacao": "Curitiba, PR",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 4.200",
+    "descricao": "Planejamento de campanhas e gestão de redes sociais.",
+    "requisitos": [
+      "Google Ads",
+      "Meta Ads",
+      "SEO",
+      "Google Analytics"
+    ],
+    "publicadoEm": "2026-07-16"
+  },
+  {
+    "id": 4,
+    "titulo": "Desenvolvedor Back-end",
+    "area": "Back-end",
+    "empresa": "CodeLab",
+    "localizacao": "São Paulo, SP",
+    "modelo": "Remoto",
+    "tipo": "PJ",
+    "salario": "R$ 8.000 - R$ 10.000",
+    "descricao": "Desenvolvimento de APIs REST utilizando Node.js e bancos de dados SQL.",
+    "requisitos": [
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "Docker"
+    ],
+    "publicadoEm": "2026-07-15"
+  },
+  {
+    "id": 5,
+    "titulo": "Estágio em Desenvolvimento Web",
+    "area": "Front-end",
+    "empresa": "NextDev",
+    "localizacao": "Joinville, SC",
+    "modelo": "Presencial",
+    "tipo": "Estágio",
+    "salario": "R$ 1.500",
+    "descricao": "Auxílio no desenvolvimento de aplicações web e manutenção de sistemas.",
+    "requisitos": [
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ],
+    "publicadoEm": "2026-07-14"
+  },
+  {
+    "id": 6,
+    "titulo": "Analista de Dados",
+    "area": "Dados",
+    "empresa": "Data Vision",
+    "localizacao": "Belo Horizonte, MG",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 6.500",
+    "descricao": "Análise de dados, criação de dashboards e relatórios gerenciais.",
+    "requisitos": [
+      "SQL",
+      "Power BI",
+      "Python",
+      "Excel"
+    ],
+    "publicadoEm": "2026-07-13"
+  },
+  {
+    "id": 7,
+    "titulo": "Desenvolvedor Mobile Flutter",
+    "area": "Mobile",
+    "empresa": "AppWorks",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "PJ",
+    "salario": "R$ 7.500",
+    "descricao": "Desenvolvimento de aplicativos Android e iOS utilizando Flutter.",
+    "requisitos": [
+      "Flutter",
+      "Dart",
+      "Firebase",
+      "Git"
+    ],
+    "publicadoEm": "2026-07-12"
+  },
+  {
+    "id": 8,
+    "titulo": "Product Manager",
+    "area": "Gestão",
+    "empresa": "Inova Tech",
+    "localizacao": "Campinas, SP",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 12.000",
+    "descricao": "Gerenciamento do ciclo de vida de produtos digitais.",
+    "requisitos": [
+      "Scrum",
+      "Kanban",
+      "Roadmap",
+      "Gestão de Produtos"
+    ],
+    "publicadoEm": "2026-07-11"
+  },
+  {
+    "id": 9,
+    "titulo": "Suporte Técnico",
+    "area": "Suporte",
+    "empresa": "InfoHelp",
+    "localizacao": "Blumenau, SC",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 2.900",
+    "descricao": "Atendimento a clientes e resolução de problemas técnicos.",
+    "requisitos": [
+      "Windows",
+      "Redes",
+      "Atendimento ao Cliente"
+    ],
+    "publicadoEm": "2026-07-10"
+  },
+  {
+    "id": 10,
+    "titulo": "Engenheiro de Software Sênior",
+    "area": "Back-end",
+    "empresa": "Cloud Systems",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 15.000 - R$ 18.000",
+    "descricao": "Desenvolvimento de sistemas escaláveis em arquitetura de microsserviços.",
+    "requisitos": [
+      "Java",
+      "Spring Boot",
+      "AWS",
+      "Docker",
+      "Kubernetes"
+    ],
+    "publicadoEm": "2026-07-09"
+  },
+  {
+    "id": 11,
+    "titulo": "Desenvolvedor Full Stack",
+    "area": "Full Stack",
+    "empresa": "SoftWave",
+    "localizacao": "Joinville, SC",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 7.000",
+    "descricao": "Desenvolvimento de aplicações web utilizando React e Node.js.",
+    "requisitos": [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Git"
+    ],
+    "publicadoEm": "2026-07-19"
+  },
+  {
+    "id": 12,
+    "titulo": "QA Tester",
+    "area": "QA",
+    "empresa": "Quality Tech",
+    "localizacao": "Curitiba, PR",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 4.500",
+    "descricao": "Planejar e executar testes funcionais e automatizados.",
+    "requisitos": [
+      "Selenium",
+      "Postman",
+      "Testes Automatizados"
+    ],
+    "publicadoEm": "2026-07-19"
+  },
+  {
+    "id": 13,
+    "titulo": "DevOps Engineer",
+    "area": "DevOps",
+    "empresa": "CloudX",
+    "localizacao": "São Paulo, SP",
+    "modelo": "Remoto",
+    "tipo": "PJ",
+    "salario": "R$ 11.500",
+    "descricao": "Automação de infraestrutura e pipelines CI/CD.",
+    "requisitos": [
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "publicadoEm": "2026-07-18"
+  },
+  {
+    "id": 14,
+    "titulo": "Analista de Recursos Humanos",
+    "area": "RH",
+    "empresa": "People First",
+    "localizacao": "Blumenau, SC",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 4.000",
+    "descricao": "Conduzir processos seletivos e integração de colaboradores.",
+    "requisitos": [
+      "Recrutamento",
+      "Pacote Office",
+      "Comunicação"
+    ],
+    "publicadoEm": "2026-07-18"
+  },
+  {
+    "id": 15,
+    "titulo": "Arquiteto de Software",
+    "area": "Arquitetura de Software",
+    "empresa": "Innovate Systems",
+    "localizacao": "Florianópolis, SC",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 16.000",
+    "descricao": "Definir arquitetura de sistemas escaláveis e seguros.",
+    "requisitos": [
+      "Java",
+      "AWS",
+      "Microsserviços",
+      "Arquitetura"
+    ],
+    "publicadoEm": "2026-07-17"
+  },
+  {
+    "id": 16,
+    "titulo": "Assistente Administrativo",
+    "area": "Administrativo",
+    "empresa": "Grupo Atlas",
+    "localizacao": "Joinville, SC",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 2.800",
+    "descricao": "Rotinas administrativas e atendimento interno.",
+    "requisitos": [
+      "Excel",
+      "Organização",
+      "Boa comunicação"
+    ],
+    "publicadoEm": "2026-07-17"
+  },
+  {
+    "id": 17,
+    "titulo": "Designer Gráfico",
+    "area": "UI/UX",
+    "empresa": "Pixel Studio",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "PJ",
+    "salario": "R$ 4.800",
+    "descricao": "Criação de peças gráficas para campanhas digitais.",
+    "requisitos": [
+      "Photoshop",
+      "Illustrator",
+      "Criatividade"
+    ],
+    "publicadoEm": "2026-07-16"
+  },
+  {
+    "id": 18,
+    "titulo": "Cientista de Dados",
+    "area": "Dados",
+    "empresa": "Data Insight",
+    "localizacao": "Campinas, SP",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 10.500",
+    "descricao": "Construção de modelos de machine learning.",
+    "requisitos": [
+      "Python",
+      "Machine Learning",
+      "SQL",
+      "Pandas"
+    ],
+    "publicadoEm": "2026-07-16"
+  },
+  {
+    "id": 19,
+    "titulo": "Analista Financeiro",
+    "area": "Financeiro",
+    "empresa": "Finance Corp",
+    "localizacao": "Curitiba, PR",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 5.300",
+    "descricao": "Controle financeiro, fluxo de caixa e relatórios.",
+    "requisitos": [
+      "Excel Avançado",
+      "ERP",
+      "Finanças"
+    ],
+    "publicadoEm": "2026-07-15"
+  },
+  {
+    "id": 20,
+    "titulo": "Desenvolvedor Java Pleno",
+    "area": "Back-end",
+    "empresa": "CodeMasters",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 8.200",
+    "descricao": "Desenvolvimento de APIs e sistemas corporativos.",
+    "requisitos": [
+      "Java",
+      "Spring Boot",
+      "MySQL"
+    ],
+    "publicadoEm": "2026-07-15"
+  },
+  {
+    "id": 21,
+    "titulo": "Engenheiro Civil",
+    "area": "Engenharia",
+    "empresa": "Construtora Horizonte",
+    "localizacao": "Joinville, SC",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 8.500",
+    "descricao": "Gerenciamento e acompanhamento de obras.",
+    "requisitos": [
+      "AutoCAD",
+      "MS Project",
+      "CREA ativo"
+    ],
+    "publicadoEm": "2026-07-14"
+  },
+  {
+    "id": 22,
+    "titulo": "Arquiteto",
+    "area": "Arquitetura",
+    "empresa": "Studio Forma",
+    "localizacao": "Florianópolis, SC",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 6.800",
+    "descricao": "Desenvolvimento de projetos arquitetônicos residenciais e comerciais.",
+    "requisitos": [
+      "Revit",
+      "SketchUp",
+      "AutoCAD",
+      "Lumion"
+    ],
+    "publicadoEm": "2026-07-14"
+  },
+  {
+    "id": 23,
+    "titulo": "Estágio em Arquitetura",
+    "area": "Arquitetura",
+    "empresa": "Espaço Urbano",
+    "localizacao": "Joinville, SC",
+    "modelo": "Presencial",
+    "tipo": "Estágio",
+    "salario": "R$ 1.700",
+    "descricao": "Auxílio na elaboração de projetos executivos e modelagem 3D.",
+    "requisitos": [
+      "SketchUp",
+      "AutoCAD",
+      "V-Ray"
+    ],
+    "publicadoEm": "2026-07-13"
+  },
+  {
+    "id": 24,
+    "titulo": "Analista de Cibersegurança",
+    "area": "Segurança",
+    "empresa": "SecureNet",
+    "localizacao": "São Paulo, SP",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 9.800",
+    "descricao": "Monitoramento de incidentes e segurança da informação.",
+    "requisitos": [
+      "Firewalls",
+      "Linux",
+      "SIEM"
+    ],
+    "publicadoEm": "2026-07-13"
+  },
+  {
+    "id": 25,
+    "titulo": "Administrador de Banco de Dados",
+    "area": "Banco de Dados",
+    "empresa": "DB Solutions",
+    "localizacao": "Belo Horizonte, MG",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 8.700",
+    "descricao": "Gerenciamento e otimização de bancos de dados.",
+    "requisitos": [
+      "PostgreSQL",
+      "Oracle",
+      "SQL Server"
+    ],
+    "publicadoEm": "2026-07-12"
+  },
+  {
+    "id": 26,
+    "titulo": "Gerente de Projetos",
+    "area": "Gestão",
+    "empresa": "Prime Consulting",
+    "localizacao": "Curitiba, PR",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 13.000",
+    "descricao": "Planejamento e acompanhamento de projetos de tecnologia.",
+    "requisitos": [
+      "Scrum",
+      "PMP",
+      "Jira"
+    ],
+    "publicadoEm": "2026-07-12"
+  },
+  {
+    "id": 27,
+    "titulo": "Técnico em Informática",
+    "area": "Suporte",
+    "empresa": "InfoTech",
+    "localizacao": "Joinville, SC",
+    "modelo": "Presencial",
+    "tipo": "CLT",
+    "salario": "R$ 3.200",
+    "descricao": "Suporte técnico e manutenção de computadores.",
+    "requisitos": [
+      "Windows",
+      "Redes",
+      "Hardware"
+    ],
+    "publicadoEm": "2026-07-11"
+  },
+  {
+    "id": 28,
+    "titulo": "Copywriter",
+    "area": "Marketing",
+    "empresa": "Agência Criativa",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "PJ",
+    "salario": "R$ 4.300",
+    "descricao": "Produção de textos para campanhas de marketing.",
+    "requisitos": [
+      "Copywriting",
+      "SEO",
+      "Criatividade"
+    ],
+    "publicadoEm": "2026-07-11"
+  },
+  {
+    "id": 29,
+    "titulo": "Analista de BI",
+    "area": "Dados",
+    "empresa": "Vision Analytics",
+    "localizacao": "São Paulo, SP",
+    "modelo": "Híbrido",
+    "tipo": "CLT",
+    "salario": "R$ 7.400",
+    "descricao": "Desenvolvimento de dashboards e indicadores de desempenho.",
+    "requisitos": [
+      "Power BI",
+      "SQL",
+      "Excel"
+    ],
+    "publicadoEm": "2026-07-10"
+  },
+  {
+    "id": 30,
+    "titulo": "Desenvolvedor Python",
+    "area": "Back-end",
+    "empresa": "ByteCode",
+    "localizacao": "Remoto",
+    "modelo": "Remoto",
+    "tipo": "CLT",
+    "salario": "R$ 8.900",
+    "descricao": "Desenvolvimento de APIs e automações utilizando Python.",
+    "requisitos": [
+      "Python",
+      "Django",
+      "FastAPI",
+      "Git"
+    ],
+    "publicadoEm": "2026-07-10"
+  }
+]
