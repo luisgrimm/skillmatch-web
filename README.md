@@ -173,6 +173,10 @@ Este projeto foi desenvolvido utilizando os principais conteúdos estudados dura
 * Módulos ES
 * Git e GitHub
 
+
+# Trello
+
+* https://trello.com/invite/b/6a5e6d5a678d4f524bdc4184/ATTI2eb44b0d19db8bce5bd7eea521b8aa62FC4611A5/skillmatch-web
 ---
 
 # 👨‍💻 Autor
